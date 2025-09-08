@@ -9,6 +9,15 @@ This document explains how to set up the Hi5 ETF Reminder to run automatically u
 - **State Persistence**: Maintains reminder state across runs using GitHub Actions cache
 - **Manual Triggers**: Can be triggered manually from GitHub Actions tab
 
+## Usage
+
+1. How to activate the venv
+```
+cd /hiFive
+source venv/bin/activate
+pytest -s
+```
+
 ## Setup Instructions
 
 ### 1. Repository Setup
